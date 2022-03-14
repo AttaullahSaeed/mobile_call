@@ -42,9 +42,7 @@ const Products = ({ product, query, loading }) => {
                     </h5>
                     <p className="text-normal">$ {pro?.description}</p>
 
-                    <a href="tel:">
-                      <span className="border p-1">{pro?.contact_no}</span>
-                    </a>
+                    <a href="tel:">{pro?.contact_no || "-"}</a>
                   </div>
                 </div>
               </div>
