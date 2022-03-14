@@ -29,7 +29,7 @@ const Products = ({ product, query, loading }) => {
                     height={350}
                   />
                   <div className="card-body">
-                    <h5 className="card-title text__el text-center">
+                    <h5 className="card-title text__el  text-center">
                       <Highlighter
                         highlightClassName="YourHighlightClass"
                         searchWords={[query]}

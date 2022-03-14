@@ -66,7 +66,7 @@ const Home = () => {
         />
       </div>
       <Products product={product} query={query} loading={loading} />
-      <div className="mb-5 mt-4 d-flex justify-content-center">
+      <div className="mb-5 mt-3 d-flex justify-content-center">
         <Pagination
           total={total}
           current={page}
