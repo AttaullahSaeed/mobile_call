@@ -42,7 +42,7 @@ const Products = ({ product, query, loading }) => {
                     </h5>
                     <p className="text-normal">$ {pro?.description}</p>
 
-                    <a href={`${pro?.contact_no || "-"}`}>
+                    <a href={`tell:${pro?.contact_no || "-"}`}>
                       {pro?.contact_no || "-"}
                     </a>
                   </div>
