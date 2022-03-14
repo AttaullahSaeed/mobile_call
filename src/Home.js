@@ -46,14 +46,7 @@ const Home = () => {
     <>
       <div className="">
         <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-          <input
-            className="form-control  mx-auto my-2 search_bar"
-            type="search"
-            placeholder="Search by name or category"
-            aria-label="Search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
+          App
         </nav>
       </div>
       <div className="mb-5 mt-4 d-flex justify-content-center">
