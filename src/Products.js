@@ -1,5 +1,6 @@
 import React from "react";
 import Highlighter from "react-highlight-words";
+import placeholder from '../public/placeholder.jpg'
 const Products = ({ product, query, loading }) => {
   return (
     <>
@@ -23,7 +24,7 @@ const Products = ({ product, query, loading }) => {
               >
                 <div className="card">
                   <img
-                    src={pro?.image_url}
+                    src={pro?.image_url || placeholder}
                     className="card-img-top"
                     alt={pro.title}
                     height={350}
