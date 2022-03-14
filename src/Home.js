@@ -46,7 +46,7 @@ const Home = () => {
     <>
       <div className="">
         <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-          App
+          <h5 className="pl-5">React App</h5>
         </nav>
       </div>
       <div className="mb-5 mt-4 d-flex justify-content-center">
