@@ -1,6 +1,6 @@
 import React from "react";
 import Highlighter from "react-highlight-words";
-import placeholder from '../public/placeholder.jpg'
+import placeholder from "./placeholder.jpg";
 const Products = ({ product, query, loading }) => {
   return (
     <>
